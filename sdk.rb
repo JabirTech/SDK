@@ -1,5 +1,6 @@
 require './jalali-date.rb'
 require './gregorian-date.rb'
+require './time.rb'
 
 class JabirOS
   class Date
@@ -11,5 +12,6 @@ class JabirOS
     end
   end
   class Time
+    extend TimeModule
   end
 end
