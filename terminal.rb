@@ -4,7 +4,7 @@ module Console
   def write(str)
     print str
   end
-  def println(str)
+  def writeln(str)
     puts str
   end
   def readline()
