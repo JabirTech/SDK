@@ -10,3 +10,4 @@ as the main language for development of 3rd party applications (more information
 ## Current Libraries
 * Date and Time (both Jalai and Gregorian)
 * Console functions
+* Esperanto language library. 
