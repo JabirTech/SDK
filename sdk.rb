@@ -2,6 +2,7 @@ require './jalali-date.rb'
 require './gregorian-date.rb'
 require './time.rb'
 require './terminal.rb'
+require './esperanto.rb'
 
 class JabirOS
   class Date
@@ -17,5 +18,8 @@ class JabirOS
   end
   class Terminal
     extend Console
+  end
+  class Esperanto < String
+    include EsperantoLang
   end
 end
