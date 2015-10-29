@@ -7,7 +7,8 @@ as the main language for development of 3rd party applications (more information
 * Development of easy, fast and light-weight command line applications.
 * Development of easy, fast and light-weight graphical applications.
 * Development of web-based services and web applications for JabirOS.
+
 ## Current Libraries
 * Date and Time (both Jalai and Gregorian)
 * Console functions
-* Esperanto language library. 
+* Esperanto language library.
