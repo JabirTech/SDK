@@ -3,6 +3,7 @@ require './gregorian-date.rb'
 require './time.rb'
 require './terminal.rb'
 require './esperanto.rb'
+require './arrays.rb'
 
 class JabirOS
   class Date
@@ -21,5 +22,8 @@ class JabirOS
   end
   class Esperanto < String
     include EsperantoLang
+  end
+  class Array
+    extend Arrays
   end
 end
