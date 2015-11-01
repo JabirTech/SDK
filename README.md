@@ -13,3 +13,4 @@ as the main language for development of 3rd party applications (more information
 * Console functions
 * Esperanto language library.
 * Arrays
+* A simple debugger app. 
