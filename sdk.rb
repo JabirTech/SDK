@@ -4,6 +4,7 @@ require './time.rb'
 require './terminal.rb'
 require './esperanto.rb'
 require './arrays.rb'
+require './debugger.rb'
 
 class JabirOS
   class Date
@@ -25,5 +26,8 @@ class JabirOS
   end
   class Array
     extend Arrays
+  end
+  class Debug
+    extend Debugger
   end
 end
